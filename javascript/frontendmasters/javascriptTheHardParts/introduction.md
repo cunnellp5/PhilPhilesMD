@@ -12,11 +12,15 @@
 * the thread of execution is **line by line**
 * A local memory ('variable environment') where anything defined in the function is stored.
 
-#### how do you know what fn you're in?
+#### How do you know what fn you're in?
 * Call stack:
   * first in (push) last out (pop).
 
 ##### Buzz words:
-* parameter is the *primitive* value passed into a function
-  * primitive = string / boolean / null / undefined / object
+* `parameter` is the *primitive* value passed into a function
+  * `primitive` = string / boolean / null / undefined / object
 * functions default to *undefined*
+* `execution context` created when a function is called with parens
+* `memory` = inputs and results of a function?
+* `thread` = javascript going line by line
+* `just in time compilation` = optimizations around which bits get assigned to memory first
